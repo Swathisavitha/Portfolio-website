@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="myportfolio.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Swathi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a swathi fullstack developer<br>graduate at Computer Science Engineering.<br>I'm interesting to create a webpage with the help of html,css, and javascript<br>And some knowledge in python and MySQl</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1 </h3>
+            <p> Built My own Portfolio website
+                <br>The purpose of a portfolio can showcase my skills. <br> It can help my identify where i want my career to go by providing an overview for my work and achievements 
+            </p>
+            <img src="project1.jpg" alt="Project 1">
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Employee login portal using form validation
+                <br>The purpose of a form Validation is used to validate the forms.<br>In the form the given information is filled using html ,css and javascript.The form validation is the process of the filled the all the given fiels otherwise it's show the fill the requirement field.
+            </p>
+            <img src="project2.jpg" alt="Project 2">
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="myportfolio.js"></script>
+</body>
+</html>
